@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Bitcount+Grid+Single:wght@100..900&family=Oswald:wght@200..700&family=Playfair+Display:wght@400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <h1 class="bitcount-grid-single-500">Tic Tac Toe</h1>
+        </div>
+        <div>
+            <ul class="bitcount-grid-single-500">
+                <li><a href="https://www.aryananand.me/" target="_blank">Portfolio</a></li>
+                <li><a href="https://www.linkedin.com/in/aryan-anand-sde/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/aryan-anand-sde" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main>
+        <div class="game-container">
+            <div class="game-info playfair-display-750">
+                <div>
+                    <span class="info">Turn for X</span>
+                    <br>
+                    <button id="reset">RESET</button>
+                </div>
+                <div class="image-box">
+                    <img src="./Assets/Excited.gif" alt="Excited">
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="line"></div>
+                <div class="box" style="border-top: 0; border-left: 0;"><span class="box-text"></span></div>
+                <div class="box" style="border-top: 0;"><span class="box-text"></span></div>
+                <div class="box" style="border-top: 0; border-right: 0;"><span class="box-text"></span></div>
+                <div class="box" style="border-left: 0;"><span class="box-text"></span></div>
+                <div class="box"><span class="box-text"></span></div>
+                <div class="box" style="border-right: 0;"><span class="box-text"></span></div>
+                <div class="box" style="border-left: 0; border-bottom: 0"><span class=" box-text"></span></div>
+                <div class="box" style="border-bottom: 0;"><span class="box-text"></span></div>
+                <div class="box" style="border-bottom: 0; border-right: 0"><span class="box-text"></span></div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
